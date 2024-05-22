@@ -454,7 +454,7 @@ while True:
                                     break
 
                         if notFindData != True:
-                            print("\nDetected Missing Words!!, Randomly Selected\n")
+                            print("\n학습하지 않은 언어가 발견되어 랜덤으로 선택합니다.\n")
                             driver.find_element(By.XPATH,
                                                 f"/html/body/div[1]/div[3]/div/div/div/div[4]/div[3]/div[1]/div[2]/div/div/div[2]/div/div/div[2]/div[{random.randint(1, 4)}]/div/div"
                                                 ).click()
