@@ -127,7 +127,7 @@ while True:
                     except:
                         pass
                     if ck != True:
-                        print("\nDetected Missing Words!!, Randomly Selected\n")
+                        print("\n학습하지 않은 언어가 발견되어 랜덤으로 선택합니다.\n")
                         driver.find_element(By.XPATH,
                                             f"//*[@id='wrapper-learn']/div/div/div[2]/div[2]/div[{i}]/div[3]/div[{random.randint(1, 4)}]/div[2]"
                                             ).click()
